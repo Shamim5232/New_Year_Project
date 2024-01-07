@@ -1,0 +1,269 @@
+/* max width 1440px  */
+@media (max-width: 1440px) {
+  .banner_Outer {
+    margin: 0 20px;
+  }
+  #party .party_outer {
+    margin: 0 20px;
+  }
+  #comming_soon {
+    margin: 0 20px;
+  }
+  #holiday_sale {
+    margin: 0 20px;
+  }
+  #portfolio {
+    margin: 0 20px;
+  }
+}
+/* max width 1440px end */
+
+/* max width 1024px start */
+@media (max-width: 1024px) {
+  .banner_inner h5 {
+    font-size: 28px;
+  }
+  .banner_inner h1 {
+    font-size: 60px;
+    width: 80%;
+  }
+  /* offer part  */
+  .offer_img img {
+    width: 100%;
+  }
+  .offer_img {
+    padding: 40px;
+  }
+  /* offer part end  */
+
+  /* party victory part  */
+  .partyContent h2 {
+    font-size: 50px;
+    line-height: 67px;
+  }
+  .partyContent .btn {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .comming_soon_img {
+    height: 300px;
+    width: 300px;
+  }
+  .portfolio_heading {
+    margin-top: 48px;
+  }
+}
+/* max width 1024px end */
+
+/* max width 768px start */
+@media (max-width: 768px) {
+  /* grid part layout */
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.663%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  /* grid part layout */
+  .banner_inner h5 {
+    font-size: 28px;
+  }
+  .banner_inner h1 {
+    font-size: 50px;
+    width: 90%;
+    line-height: 1.5;
+  }
+  /* party victory part start here  */
+  #party .party_outer {
+    height: 300px;
+  }
+  .partyContent {
+    padding: 20px;
+  }
+  .partyContent h2 {
+    font-size: 35px;
+    line-height: 54px;
+  }
+  .partyContent p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #comming_soon .col-4 {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  #comming_soon .comming_soon_left_content {
+    text-align: center;
+  }
+
+  .comming_soon_right_content .inner {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .git_icon {
+    height: 320px;
+  }
+
+  #holiday_sale .holiday_sale_top h2 {
+    font-size: 55px;
+  }
+  #holiday_sale .holiday_sale_top {
+    margin-top: 50px;
+  }
+}
+/* max width 768px end */
+
+/* max width 768px start */
+@media (max-width: 550px) {
+  /* grid part layout */
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.663%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+  /* grid part layout */
+  .banner_Outer {
+    height: 400px;
+  }
+  .banner_inner h5 {
+    font-size: 20px;
+  }
+  .banner_inner h1 {
+    font-size: 35px;
+    width: 100%;
+    line-height: 1.5;
+  }
+  /* offer part start here  */
+  .getOff h2 {
+    font-size: 60px;
+  }
+  .heading h5 {
+    font-size: 20px;
+  }
+  .heading h4 {
+    font-size: 30px;
+  }
+  /* party victory part start here  */
+  #party .col-8 {
+    width: 100%;
+  }
+  #party .col-4 {
+    display: none;
+  }
+  .partyContent h2 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  /* party victory part start here  */
+
+  /* schudule part  */
+  .schudule_wrapper h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  #schudule .btn {
+    padding: 10px 25px;
+    font-size: 20px;
+  }
+  .git_icon img {
+    left: 76px;
+    width: 71%;
+  }
+  .sale_img .discount {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: #f00;
+    top: 2px;
+    right: 190px;
+  }
+  .sale_img .discount h2 {
+    font-size: 20px;
+  }
+  .sale_img .discount span {
+    font-size: 30px;
+  }
+  #holiday_sale .holiday_sale_top h2 {
+    font-size: 40px;
+  }
+  #holiday_sale .holiday_sale_top p {
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+  }
+  #portfolio .portfolio_heading p {
+    width: 100%;
+  }
+  #portfolio .portfolio_heading h2 {
+    font-size: 33px;
+  }
+}
+/* max width 768px end */
