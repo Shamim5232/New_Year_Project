@@ -15,6 +15,12 @@
   #portfolio {
     margin: 0 20px;
   }
+  #newsletter {
+    margin: 20px;
+  }
+  #footer {
+    padding: 150px 20px;
+  }
 }
 /* max width 1440px end */
 
@@ -51,6 +57,27 @@
   }
   .portfolio_heading {
     margin-top: 48px;
+  }
+  .newsletter_wrapper img {
+    width: 110px;
+    height: 110px;
+  }
+  .newsletter_wrapper h2 {
+    font-size: 32px;
+  }
+  .newsletter_wrapper p {
+    font-size: 17px;
+    width: 85%;
+  }
+  .SubscribeBtn {
+    width: 70%;
+  }
+
+  .footer-top-box {
+    padding-left: 0;
+  }
+  #footer {
+    padding: 50px 20px;
   }
 }
 /* max width 1024px end */
@@ -264,6 +291,19 @@
   }
   #portfolio .portfolio_heading h2 {
     font-size: 33px;
+  }
+  .newsletter_wrapper h2 {
+    font-size: 28px;
+  }
+  .newsletter_wrapper p {
+    font-size: 17px;
+    width: 90%;
+  }
+  .SubscribeBtn {
+    width: 90%;
+  }
+  .sale_img img {
+    width: 100%;
   }
 }
 /* max width 768px end */

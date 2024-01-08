@@ -365,7 +365,7 @@ body {
   height: 200px;
   width: 200px;
   background: #f00;
-  top: 116px;
+  top: 80px;
   right: 326px;
   display: flex;
   justify-content: center;
@@ -373,7 +373,7 @@ body {
   border-radius: 50%;
   transform: rotate(336deg);
   text-align: center;
-  border: 5px solid #fff;
+  border: 9px solid #fff;
   font-size: 20px;
   font-family: Inter;
   color: #fff;
@@ -458,4 +458,112 @@ body {
 }
 .overlay a:hover {
   background: rgba(0, 0, 0, 0.6);
+}
+
+/* newsletter part start here  */
+#newsletter {
+  margin: 50px 0;
+}
+.newsletter_wrapper {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  padding: 40px 0;
+}
+.newsletter_wrapper img {
+  width: 140px;
+  height: 140px;
+}
+.newsletter_wrapper h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+.newsletter_wrapper p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 70%;
+  margin: 0 auto;
+}
+.SubscribeBtn {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 26px;
+  margin-top: 30px;
+}
+
+.SubscribeBtn input {
+  width: 100%;
+  font-size: 16px;
+  padding: 13px;
+  border-radius: 26px;
+  border: none;
+  outline: none;
+  text-indent: 10px;
+}
+button.subcribe {
+  background: red;
+  padding: 12px 32px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0 26px 26px 0;
+}
+/* footer part start here  */
+#footer {
+  background: #070211;
+  padding: 50px 0;
+}
+
+.footer_top p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-top-box {
+  padding-left: 150px;
+}
+
+.footer_middle {
+  border-top: 1px solid #cccccc39;
+  border-bottom: 1px solid #cccccc39;
+  margin: 20px 0;
+}
+.sosical_icons {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.sosical_icons img {
+  width: 50px;
+  margin: 10px;
+}
+.footer_bottom {
+  padding-top: 10px;
+}
+.footer_bottom p {
+  color: #fff;
+  font-size: 20px;
+}
+.text-end {
+  text-align: right;
+}
+.text-start {
+  text-align: left;
 }
